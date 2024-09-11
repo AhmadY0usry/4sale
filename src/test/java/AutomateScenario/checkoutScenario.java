@@ -9,7 +9,7 @@ import org.testng.asserts.SoftAssert;
 
 
 public class checkoutScenario extends Base {
-    private SoftAssert softAssert = new SoftAssert();
+    private final SoftAssert softAssert = new SoftAssert();
     private Home_Page homePage;
     private  Cart_Page cartPage;
     private Checkout_Page checkoutPage;
