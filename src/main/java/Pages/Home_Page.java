@@ -12,7 +12,7 @@ public class Home_Page extends Page_Utils {
     WebDriver driver;
 
     By sortList = By.className("product_sort_container");
-    By productList= By.cssSelector(".btn.btn_primary.btn_small.btn_inventory");
+    By productList = By.cssSelector(".btn.btn_primary.btn_small.btn_inventory");
     By cartBtn = By.className("shopping_cart_link");
 
     public Home_Page(WebDriver driver) {
@@ -20,20 +20,17 @@ public class Home_Page extends Page_Utils {
         this.driver = driver;
     }
 
-    public void selectSort (String Value)
-    {
-        selectFromList(sortList,Value);
+    public void selectSort(String Value) {
+        selectFromList(sortList, Value);
     }
 
-    public void addProductCart (int chooseProduct)
-    {
-        List<WebElement> elements =driver.findElements(productList);
+    public void addProductCart(int chooseProduct) {
+        List<WebElement> elements = driver.findElements(productList);
         elements.get(chooseProduct).click();
     }
 
-    public WebDriver clickOnCartBtn()
-    {
-         click(cartBtn);
+    public WebDriver clickOnCartBtn() {
+        click(cartBtn);
         return driver;
     }
 

@@ -1,0 +1,7 @@
+<suite name="Suite1" >
+    <test name="Automation Task" >
+    <classes>
+            <class name="AutomateScenario.checkoutScenario"/>
+        </classes>
+    </test>
+</suite>

@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6bbca24-42cb-417e-bdbb-3c991941b2c0" name="Changes" comment="Uploading Automation task" />
+    <list default="true" id="a6bbca24-42cb-417e-bdbb-3c991941b2c0" name="Changes" comment="Uploading Automation task_2">
+      <change afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Page_Utils/Page_Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Page_Utils/Page_Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/Cart_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/Cart_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/Checkout_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/Checkout_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/Completion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/Completion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/Home_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/Home_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/Login_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/Login_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AutomateScenario/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutomateScenario/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AutomateScenario/checkoutscenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutomateScenario/checkoutScenario.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,9 +32,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2lv7IewU4RNEcn0ATKzAhT8MEdG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -34,15 +46,19 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.D:/Java/forSale/TestNG.xml.executor": "Run",
     "TestNG.Login.Login_With_Valid_Data.executor": "Run",
     "TestNG.Login.executor": "Run",
+    "TestNG.checkoutscenario.executor": "Run",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Java/forSale/src/test/java/AutomateScenario",
+    "last_opened_file_path": "D:/Java/forSale",
     "onboarding.tips.debug.path": "D:/Java/forSale/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
@@ -52,6 +68,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\forSale" />
       <recent name="D:\Java\forSale\src\test\java\AutomateScenario" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -59,8 +76,8 @@
       <recent name="Pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Login.Login_With_Valid_Data">
-    <configuration name="Login" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="checkoutScenario" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="forSale" />
       <extension name="coverage">
         <pattern>
@@ -69,7 +86,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AutomateScenario" />
-      <option name="MAIN_CLASS_NAME" value="AutomateScenario.Login" />
+      <option name="MAIN_CLASS_NAME" value="AutomateScenario.checkoutScenario" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -77,7 +94,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login.Login_With_Valid_Data" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="checkoutScenario.Login_With_Valid_Data" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="forSale" />
       <extension name="coverage">
         <pattern>
@@ -86,7 +103,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AutomateScenario" />
-      <option name="MAIN_CLASS_NAME" value="AutomateScenario.Login" />
+      <option name="MAIN_CLASS_NAME" value="AutomateScenario.checkoutScenario" />
       <option name="METHOD_NAME" value="Login_With_Valid_Data" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -97,12 +114,22 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Login.Login_With_Valid_Data" />
-        <item itemvalue="TestNG.Login" />
+        <item itemvalue="TestNG.checkoutScenario.Login_With_Valid_Data" />
+        <item itemvalue="TestNG.checkoutScenario" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\QC\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a6bbca24-42cb-417e-bdbb-3c991941b2c0" name="Changes" comment="" />
@@ -143,7 +170,47 @@
       <option name="project" value="LOCAL" />
       <updated>1726064258894</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Uploading Automation task">
+      <option name="closed" value="true" />
+      <created>1726064548537</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726064548537</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Uploading Automation task_2">
+      <option name="closed" value="true" />
+      <created>1726064568999</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726064568999</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Uploading Automation task_2">
+      <option name="closed" value="true" />
+      <created>1726064575498</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1726064575498</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Uploading Automation task_2">
+      <option name="closed" value="true" />
+      <created>1726064582029</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1726064582029</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Uploading Automation task_2">
+      <option name="closed" value="true" />
+      <created>1726064590164</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1726064590164</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,15 +218,29 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Uploading Automation task 2" />
     <MESSAGE value="Uploading Automation task" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uploading Automation task" />
+    <MESSAGE value="Uploading Automation task_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uploading Automation task_2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

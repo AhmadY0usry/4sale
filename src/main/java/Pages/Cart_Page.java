@@ -13,8 +13,7 @@ public class Cart_Page extends Page_Utils {
         this.driver = driver;
     }
 
-    public WebDriver clickOnCheckoutTBtn()
-    {
+    public WebDriver clickOnCheckoutTBtn() {
         click(checkoutBtn);
         return driver;
     }

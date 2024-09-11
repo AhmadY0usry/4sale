@@ -14,8 +14,7 @@ public class Completion extends Page_Utils {
         this.driver = driver;
     }
 
-    public String getOrderStatus ()
-    {
+    public String getOrderStatus() {
         return getText(orderStatus);
     }
 }

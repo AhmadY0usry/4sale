@@ -9,18 +9,18 @@ import org.testng.annotations.BeforeClass;
 public class Base {
     WebDriver driver;
     Login_Page loginPage;
+
     @BeforeClass
-    public void setup()
-    {
+    public void setup() {
         driver = new ChromeDriver();
         driver.get("https://www.saucedemo.com/");
-        loginPage= new Login_Page(driver);
+        loginPage = new Login_Page(driver);
         driver.manage().window().maximize();
     }
-   @AfterClass
-        public void tearDown()
-    {
-       driver.quit();
+
+    @AfterClass
+    public void tearDown() {
+        driver.quit();
     }
 
 }
