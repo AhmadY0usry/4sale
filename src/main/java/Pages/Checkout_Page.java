@@ -6,12 +6,12 @@ import org.openqa.selenium.WebDriver;
 
 public class Checkout_Page extends Page_Utils {
 
-    WebDriver driver;
-    By firstName = By.id("first-name");
-    By lastName = By.id("last-name");
-    By zipCode = By.id("postal-code");
-    By Continue = By.id("continue");
-    By finish = By.id("finish");
+    private final WebDriver driver;
+    private final By firstName = By.id("first-name");
+    private final By lastName = By.id("last-name");
+    private final By zipCode = By.id("postal-code");
+    private final By Continue = By.id("continue");
+    private final By finish = By.id("finish");
 
     public Checkout_Page(WebDriver driver) {
         super(driver);

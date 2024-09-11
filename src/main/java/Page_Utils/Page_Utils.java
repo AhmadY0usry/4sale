@@ -5,8 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
 
 public class Page_Utils {
-    WebDriver driver;
-    Select select;
+    private final WebDriver driver;
+    private Select select;
 
     public Page_Utils(WebDriver driver) {
         this.driver = driver;

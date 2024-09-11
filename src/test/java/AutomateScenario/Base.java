@@ -7,8 +7,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
 public class Base {
-    WebDriver driver;
-    Login_Page loginPage;
+    private WebDriver driver;
+    protected Login_Page loginPage;
 
     @BeforeClass
     public void setup() {

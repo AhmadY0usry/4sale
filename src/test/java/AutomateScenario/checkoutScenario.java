@@ -9,14 +9,14 @@ import org.testng.asserts.SoftAssert;
 
 
 public class checkoutScenario extends Base {
-    SoftAssert softAssert = new SoftAssert();
-    Home_Page homePage;
-    Cart_Page cartPage;
-    Checkout_Page checkoutPage;
-    Completion completion;
+    private SoftAssert softAssert = new SoftAssert();
+    private Home_Page homePage;
+    private  Cart_Page cartPage;
+    private Checkout_Page checkoutPage;
+    private Completion completion;
 
     @Test
-    public void Login_With_Valid_Data() {
+    public void Checkout_Scenario() {
         // 1-Login with credentials provided by website
         loginPage.Enter_email_and_password("standard_user", "secret_sauce");
         homePage = new Home_Page(loginPage.clickOnLoginBtn());

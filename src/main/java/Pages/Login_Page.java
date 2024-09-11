@@ -5,10 +5,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class Login_Page extends Page_Utils {
-    WebDriver driver;
-    By Email_Field = By.id("user-name");
-    By Password_Field = By.id("password");
-    By Login = By.id("login-button");
+    private final WebDriver driver;
+    private final By Email_Field = By.id("user-name");
+    private final By Password_Field = By.id("password");
+    private final By Login = By.id("login-button");
     public Login_Page(WebDriver driver) {
         super(driver);
         this.driver = driver;
