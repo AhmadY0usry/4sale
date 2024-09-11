@@ -6,7 +6,6 @@ import org.openqa.selenium.support.ui.Select;
 
 public class Page_Utils {
     private final WebDriver driver;
-    private Select select;
 
     public Page_Utils(WebDriver driver) {
         this.driver = driver;
@@ -26,7 +25,7 @@ public class Page_Utils {
     }
 
     public void selectFromList(By byElement, String value) {
-        select = new Select(driver.findElement(byElement));
+        Select select = new Select(driver.findElement(byElement));
         select.selectByValue(value);
     }
 
