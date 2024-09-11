@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6bbca24-42cb-417e-bdbb-3c991941b2c0" name="Changes" comment="Adding TestNG.xml file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Page_Utils/Page_Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Page_Utils/Page_Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/Cart_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/Cart_Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/Checkout_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/Checkout_Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/Completion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/Completion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/Home_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/Home_Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/Login_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/Login_Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AutomateScenario/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutomateScenario/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AutomateScenario/checkoutScenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutomateScenario/checkoutScenario.java" afterDir="false" />
-    </list>
+    <list default="true" id="a6bbca24-42cb-417e-bdbb-3c991941b2c0" name="Changes" comment="Clean up code" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +66,17 @@
       <recent name="Pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.checkoutScenario">
+  <component name="RunManager" selected="TestNG.D:/Java/forSale/TestNG.xml">
+    <configuration name="D:/Java/forSale/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="forSale" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="checkoutScenario" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="forSale" />
       <extension name="coverage">
@@ -114,6 +114,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/Java/forSale/TestNG.xml" />
         <item itemvalue="TestNG.checkoutScenario" />
         <item itemvalue="TestNG.checkoutScenario.Login_With_Valid_Data" />
       </list>
@@ -242,7 +243,47 @@
       <option name="project" value="LOCAL" />
       <updated>1726065905788</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Adding the access modifiers">
+      <option name="closed" value="true" />
+      <created>1726069350279</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1726069350279</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Adding the access modifiers">
+      <option name="closed" value="true" />
+      <created>1726069432602</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1726069432602</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Adding the access modifiers">
+      <option name="closed" value="true" />
+      <created>1726069493149</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1726069493149</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Adding the access modifiers">
+      <option name="closed" value="true" />
+      <created>1726069508759</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1726069508759</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Clean up code">
+      <option name="closed" value="true" />
+      <created>1726069529873</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1726069529873</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -273,7 +314,10 @@
     <MESSAGE value="Uploading Automation task" />
     <MESSAGE value="Uploading Automation task_2" />
     <MESSAGE value="Adding TestNG.xml file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding TestNG.xml file" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
+    <MESSAGE value="Adding the access modifiers" />
+    <MESSAGE value="Clean up code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clean up code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
