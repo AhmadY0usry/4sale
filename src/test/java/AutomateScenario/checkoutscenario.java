@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 
-public class Login extends Base {
+public class checkoutscenario extends Base {
     SoftAssert softAssert=new SoftAssert();
     Home_Page homePage;
     Cart_Page cartPage;
