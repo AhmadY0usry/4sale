@@ -27,13 +27,13 @@ public class checkoutScenario extends Base {
         cartPage = new Cart_Page(homePage.clickOnCartBtn());
         checkoutPage = new Checkout_Page(cartPage.clickOnCheckoutTBtn());
         // 4-Add required data in your information screen
-        checkoutPage.enterBuyerInformation("FirstName1", "LastName2", "123548");
+        checkoutPage.enterBuyerInformation("FirstName1", "LastName2", "123548"); // Can Java faker class and data Provider to provide to generate fake data
         checkoutPage.clkOnContinueBtn();
         // 5-Complete checkout process
         completion = new Completion(checkoutPage.clickOnFinishBtn());
         // 6-Assert on completion of order
         String orderStatus = completion.getOrderStatus();
-        softAssert.assertEquals(orderStatus, "Thank you for your order!");
+        softAssert.assertEquals(orderStatus, "Thank you for your order!"); // Compare the expected with actual result
         softAssert.assertAll();
     }
 }
