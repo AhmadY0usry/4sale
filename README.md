@@ -1,6 +1,6 @@
 # 🌐Website URL: https://www.saucedemo.com/
 ## ✒️ Enviroment :
-* Using Java 20 OpenJDK
+* Using Java 21 OpenJDK
 * Using Selenium 4
 * Using IntelliJ IDEA IDE to develop the solution
 * Using TestNG as a Test Framework to create and execute the script
