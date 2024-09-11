@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6bbca24-42cb-417e-bdbb-3c991941b2c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Page_Utils/Page_Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/Cart_Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/Checkout_Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/Completion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/Home_Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/Login_Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AutomateScenario/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AutomateScenario/Login.java" afterDir="false" />
-    </list>
+    <list default="true" id="a6bbca24-42cb-417e-bdbb-3c991941b2c0" name="Changes" comment="Uploading Automation task" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,6 +111,39 @@
       <option name="presentableId" value="Default" />
       <updated>1726048619825</updated>
     </task>
+    <task id="LOCAL-00001" summary="Uploading Automation task">
+      <option name="closed" value="true" />
+      <created>1726063996913</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726063996913</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Uploading Automation task">
+      <option name="closed" value="true" />
+      <created>1726064005699</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726064005699</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Uploading Automation task">
+      <option name="closed" value="true" />
+      <created>1726064014060</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726064014060</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Uploading Automation task">
+      <option name="closed" value="true" />
+      <created>1726064258894</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726064258894</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,6 +156,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Uploading Automation task" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uploading Automation task" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
