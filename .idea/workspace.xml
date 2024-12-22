@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6bbca24-42cb-417e-bdbb-3c991941b2c0" name="Changes" comment="Clean up code" />
+    <list default="true" id="a6bbca24-42cb-417e-bdbb-3c991941b2c0" name="Changes" comment="Add Some comments">
+      <change afterPath="$PROJECT_DIR$/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Page_Utils/PageElementHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Page_Utils/Page_Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/Cart_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/Cart_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/Checkout_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/Checkout_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/Completion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/Completion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/Home_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/Home_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/Login_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AutomateScenario/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutomateScenario/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AutomateScenario/checkoutScenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutomateScenario/Verify_CheckoutScenario.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +35,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "AhmadY0usry"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/AhmadY0usry/4sale.git",
+    "accountId": "88bf24cb-c7ca-4e14-a3fa-66aed3d6f6a5"
+  }
+}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -33,6 +63,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.D:/Java/forSale/TestNG.xml.executor": "Run",
     "TestNG.Login.Login_With_Valid_Data.executor": "Run",
@@ -48,7 +79,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "configurable.group.tools"
+    "settings.editor.selected.configurable": "ml.llm.AIAssistantPromptsLibrary"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
@@ -77,7 +108,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="checkoutScenario" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Verify_CheckoutScenario" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="forSale" />
       <extension name="coverage">
         <pattern>
@@ -86,7 +117,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AutomateScenario" />
-      <option name="MAIN_CLASS_NAME" value="AutomateScenario.checkoutScenario" />
+      <option name="MAIN_CLASS_NAME" value="AutomateScenario.Verify_CheckoutScenario" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -94,7 +125,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="checkoutScenario.Login_With_Valid_Data" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Verify_CheckoutScenario.Login_With_Valid_Data" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="forSale" />
       <extension name="coverage">
         <pattern>
@@ -103,7 +134,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AutomateScenario" />
-      <option name="MAIN_CLASS_NAME" value="AutomateScenario.checkoutScenario" />
+      <option name="MAIN_CLASS_NAME" value="AutomateScenario.Verify_CheckoutScenario" />
       <option name="METHOD_NAME" value="Login_With_Valid_Data" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -115,17 +146,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.D:/Java/forSale/TestNG.xml" />
-        <item itemvalue="TestNG.checkoutScenario" />
-        <item itemvalue="TestNG.checkoutScenario.Login_With_Valid_Data" />
+        <item itemvalue="TestNG.Verify_CheckoutScenario" />
+        <item itemvalue="TestNG.Verify_CheckoutScenario.Login_With_Valid_Data" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -283,7 +307,31 @@
       <option name="project" value="LOCAL" />
       <updated>1726069529873</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Add Some comments">
+      <option name="closed" value="true" />
+      <created>1726069805007</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1726069805007</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Add Some comments">
+      <option name="closed" value="true" />
+      <created>1726069816385</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1726069816385</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Add Some comments">
+      <option name="closed" value="true" />
+      <created>1726069831426</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1726069831426</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -317,7 +365,8 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <MESSAGE value="Adding the access modifiers" />
     <MESSAGE value="Clean up code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clean up code" />
+    <MESSAGE value="Add Some comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Some comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,10 +1,10 @@
 package Pages;
 
-import Page_Utils.Page_Utils;
+import Page_Utils.PageElementHandler;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class Completion extends Page_Utils {
+public class Completion extends PageElementHandler {
 
     private final By orderStatus = By.className("complete-header");
 
@@ -13,6 +13,6 @@ public class Completion extends Page_Utils {
     }
 
     public String getOrderStatus() {
-        return getText(orderStatus);
+        return getText(this.orderStatus);
     }
 }

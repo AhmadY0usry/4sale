@@ -1,10 +1,10 @@
 package Pages;
 
-import Page_Utils.Page_Utils;
+import Page_Utils.PageElementHandler;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class Checkout_Page extends Page_Utils {
+public class Checkout_Page extends PageElementHandler {
 
     private final WebDriver driver;
     private final By firstName = By.id("first-name");
@@ -18,18 +18,18 @@ public class Checkout_Page extends Page_Utils {
         this.driver = driver;
     }
 
-    public void enterBuyerInformation(String Name, String Last, String zipCode) {
-        clearAndSendText(firstName, Name);
-        clearAndSendText(lastName, Last);
+    public void enterBuyerInformation(String name, String last, String zipCode) {
+        clearAndSendText(this.firstName, name);
+        clearAndSendText(this.lastName, last);
         clearAndSendText(this.zipCode, zipCode);
     }
 
     public void clkOnContinueBtn() {
-        click(Continue);
+        click(this.Continue);
     }
 
-    public WebDriver clickOnFinishBtn() {
-        click(finish);
-        return driver;
+    public Completion clickOnFinishBtn() {
+        click(this.finish);
+        return new Completion(driver);
     }
 }

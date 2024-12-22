@@ -1,13 +1,13 @@
 package Pages;
 
-import Page_Utils.Page_Utils;
+import Page_Utils.PageElementHandler;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
-public class Home_Page extends Page_Utils {
+public class Home_Page extends PageElementHandler {
 
     private final WebDriver driver;
 
@@ -20,18 +20,33 @@ public class Home_Page extends Page_Utils {
         this.driver = driver;
     }
 
-    public void selectSort(String Value) {
-        selectFromList(sortList, Value);
+
+
+    public void addProductToCart(int productIndex) {
+        WebElement product = getProductByIndex(productIndex);
+        if (product != null) {
+            product.click();
+        } else {
+            throw new IllegalArgumentException("Invalid product index: " + productIndex);
+        }
     }
 
-    public void addProductCart(int chooseProduct) {
-        List<WebElement> elements = driver.findElements(productList);
-        elements.get(chooseProduct).click();
+    private WebElement getProductByIndex(int index) {
+        List<WebElement> products = driver.findElements(this.productList);
+        if (index >= 0 && index < products.size()) {
+            return products.get(index);
+        }
+        return null;
     }
 
-    public WebDriver clickOnCartBtn() {
-        click(cartBtn);
-        return driver;
+    public Cart_Page clickOnCartBtn() {
+        click(this.cartBtn);
+        return new Cart_Page(driver);
+    }
+
+    public void selectLowestPriceItem() {
+        selectFromListByValue(sortList, "lohi");
+        addProductToCart(0);
     }
 
 }
