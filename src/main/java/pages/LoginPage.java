@@ -1,4 +1,4 @@
-package Pages;
+package pages;
 
 import Page_Utils.PageElementHandler;
 import org.openqa.selenium.By;
@@ -19,8 +19,8 @@ public class LoginPage extends PageElementHandler {
         clearAndSendText(this.passwordField, password);
     }
 
-    public Home_Page clickOnLoginBtn() {
+    public HomePage clickOnLoginBtn() {
         click(login);
-        return new Home_Page(driver);
+        return new HomePage(driver);
     }
 }

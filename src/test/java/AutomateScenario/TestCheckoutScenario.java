@@ -1,22 +1,22 @@
 package AutomateScenario;
 
-import Pages.Cart_Page;
-import Pages.Checkout_Page;
-import Pages.Completion;
-import Pages.Home_Page;
+import pages.CartPage;
+import pages.CheckoutPage;
+import pages.Completion;
+import pages.HomePage;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 
-public class Verify_CheckoutScenario extends Base {
+public class TestCheckoutScenario extends Base {
     private final SoftAssert softAssert = new SoftAssert();
-    private Home_Page homePage;
-    private  Cart_Page cartPage;
-    private Checkout_Page checkoutPage;
+    private HomePage homePage;
+    private CartPage cartPage;
+    private CheckoutPage checkoutPage;
     private Completion completion;
-    private static final Logger logger = LoggerFactory.getLogger(Verify_CheckoutScenario.class);
+    private static final Logger logger = LoggerFactory.getLogger(TestCheckoutScenario.class);
 
     @Test
     public void Checkout_Scenario() {

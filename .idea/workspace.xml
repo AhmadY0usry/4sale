@@ -4,21 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6bbca24-42cb-417e-bdbb-3c991941b2c0" name="Changes" comment="Add Some comments">
-      <change afterPath="$PROJECT_DIR$/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Page_Utils/PageElementHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback-test.xml" afterDir="false" />
+    <list default="true" id="a6bbca24-42cb-417e-bdbb-3c991941b2c0" name="Changes" comment="Re-Structuring the code with a better practice adding log">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Page_Utils/Page_Utils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/Cart_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/Cart_Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/Checkout_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/Checkout_Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/Completion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/Completion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/Home_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/Home_Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/Login_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/Cart_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/Checkout_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CheckoutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/Completion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Completion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/Home_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AutomateScenario/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutomateScenario/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AutomateScenario/checkoutScenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutomateScenario/Verify_CheckoutScenario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AutomateScenario/Verify_CheckoutScenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutomateScenario/TestCheckoutScenario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,34 +57,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.D:/Java/forSale/TestNG.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Login.Login_With_Valid_Data.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Login.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.checkoutScenario.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.checkoutscenario.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Java/forSale&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Java/forSale/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.AIAssistantPromptsLibrary&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "TestNG.D:/Java/forSale/TestNG.xml.executor": "Run",
+    "TestNG.Login.Login_With_Valid_Data.executor": "Run",
+    "TestNG.Login.executor": "Run",
+    "TestNG.checkoutScenario.executor": "Run",
+    "TestNG.checkoutscenario.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Java/forSale",
+    "onboarding.tips.debug.path": "D:/Java/forSale/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Java\forSale" />
@@ -108,7 +107,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Verify_CheckoutScenario" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCheckoutScenario" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="forSale" />
       <extension name="coverage">
         <pattern>
@@ -117,7 +116,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AutomateScenario" />
-      <option name="MAIN_CLASS_NAME" value="AutomateScenario.Verify_CheckoutScenario" />
+      <option name="MAIN_CLASS_NAME" value="AutomateScenario.TestCheckoutScenario" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -125,7 +124,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Verify_CheckoutScenario.Login_With_Valid_Data" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCheckoutScenario.Login_With_Valid_Data" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="forSale" />
       <extension name="coverage">
         <pattern>
@@ -134,7 +133,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AutomateScenario" />
-      <option name="MAIN_CLASS_NAME" value="AutomateScenario.Verify_CheckoutScenario" />
+      <option name="MAIN_CLASS_NAME" value="AutomateScenario.TestCheckoutScenario" />
       <option name="METHOD_NAME" value="Login_With_Valid_Data" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -146,8 +145,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.D:/Java/forSale/TestNG.xml" />
-        <item itemvalue="TestNG.Verify_CheckoutScenario" />
-        <item itemvalue="TestNG.Verify_CheckoutScenario.Login_With_Valid_Data" />
+        <item itemvalue="TestNG.TestCheckoutScenario" />
+        <item itemvalue="TestNG.TestCheckoutScenario.Login_With_Valid_Data" />
       </list>
     </recent_temporary>
   </component>
@@ -331,7 +330,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726069831426</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Re-Structuring the code with a better practice adding log">
+      <option name="closed" value="true" />
+      <created>1734903000687</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1734903000687</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Re-Structuring the code with a better practice adding log">
+      <option name="closed" value="true" />
+      <created>1734903027879</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1734903027879</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -366,7 +381,8 @@
     <MESSAGE value="Adding the access modifiers" />
     <MESSAGE value="Clean up code" />
     <MESSAGE value="Add Some comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Some comments" />
+    <MESSAGE value="Re-Structuring the code with a better practice adding log" />
+    <option name="LAST_COMMIT_MESSAGE" value="Re-Structuring the code with a better practice adding log" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

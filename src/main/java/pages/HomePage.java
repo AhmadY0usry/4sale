@@ -1,4 +1,4 @@
-package Pages;
+package pages;
 
 import Page_Utils.PageElementHandler;
 import org.openqa.selenium.By;
@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
-public class Home_Page extends PageElementHandler {
+public class HomePage extends PageElementHandler {
 
     private final WebDriver driver;
 
@@ -15,7 +15,7 @@ public class Home_Page extends PageElementHandler {
     private final By productList = By.cssSelector(".btn.btn_primary.btn_small.btn_inventory");
     private final By cartBtn = By.className("shopping_cart_link");
 
-    public Home_Page(WebDriver driver) {
+    public HomePage(WebDriver driver) {
         super(driver);
         this.driver = driver;
     }
@@ -39,9 +39,9 @@ public class Home_Page extends PageElementHandler {
         return null;
     }
 
-    public Cart_Page clickOnCartBtn() {
+    public CartPage clickOnCartBtn() {
         click(this.cartBtn);
-        return new Cart_Page(driver);
+        return new CartPage(driver);
     }
 
     public void selectLowestPriceItem() {

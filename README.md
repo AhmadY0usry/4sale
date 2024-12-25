@@ -14,7 +14,7 @@
 
 ## 🔬 Used Package and Classes
 * Page_Utils pakage contain Page_Utils class that contain the common used methods between all page classes.
-* Pages Pakage Contain all pages classes (Login_Page, Home_Page, Cart_Page, Checkout_ Page and Completion).
+* pages Pakage Contain all pages classes (Login_Page, Home_Page, Cart_Page, Checkout_ Page and Completion).
 * Login_Page class contain all locators and method related to the login page.
 * Home_Page class contain all locators and method related to the Home page.
 * Cart_Page class contain all locators and method related to the Cart page.
